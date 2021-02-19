@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design Distillery</title>
+    <link>http://design-distillery.ca/</link>
+    <description>Recent content on Design Distillery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Design Distillery Inc.</copyright>
+    <lastBuildDate>Thu, 18 Feb 2021 00:31:10 -0500</lastBuildDate><atom:link href="http://design-distillery.ca/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Us</title>
+      <link>http://design-distillery.ca/post/about-us/</link>
+      <pubDate>Thu, 18 Feb 2021 00:31:10 -0500</pubDate>
+      
+      <guid>http://design-distillery.ca/post/about-us/</guid>
+      <description>This is Us! </description>
+    </item>
+    
+    <item>
+      <title>How do we connect?</title>
+      <link>http://design-distillery.ca/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://design-distillery.ca/contact/</guid>
+      <description>email   contact@design-distillery.ca
+ phone   416 876 7229 (jorge) 647 702 1231 (mark)
+ Let&#39;s do something interesting together.</description>
+    </item>
+    
+    <item>
+      <title>What we do.</title>
+      <link>http://design-distillery.ca/what/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://design-distillery.ca/what/</guid>
+      <description>We wear many hats in this office. Much of this is stems from a broad base of root interests and experience that has grown and enrichened as we have advanced in our professional careers.
+These are some of the hats we wear the most around here:
+Architecture   Residential
+ This is a broad term.    Commercial
+ Also broad    Coordination
+ We work with consultants whenever it can help the project.</description>
+    </item>
+    
+    <item>
+      <title>Who we are.</title>
+      <link>http://design-distillery.ca/who/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://design-distillery.ca/who/</guid>
+      <description>Design Distillery is a kick ass design office that can do stuff&amp;hellip;.I mean real stuff!!! (So now you know!)
+Jorge Silve, OAA, MArch, BArchSci - Partner
+  Jorge is a designer and architect based in Toronto. He began his career working as a draftsman and junior building technologist in Vancouver on a variety of large scale projects in the commercial, healthcare, transportation and residential sectors. He went on to pursue a Masters of Architecture degree in Toronto where his studies led him to conducting research in Vancouver, Toronto, and Brazil.</description>
+    </item>
+    
+  </channel>
+</rss>
