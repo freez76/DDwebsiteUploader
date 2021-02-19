@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>who on Design Distillery</title>
+    <link>http://design-distillery.ca/tags/who/</link>
+    <description>Recent content in who on Design Distillery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Design Distillery Inc.</copyright>
+    <lastBuildDate>Thu, 18 Feb 2021 00:31:10 -0500</lastBuildDate><atom:link href="http://design-distillery.ca/tags/who/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Us</title>
+      <link>http://design-distillery.ca/post/about-us/</link>
+      <pubDate>Thu, 18 Feb 2021 00:31:10 -0500</pubDate>
+      
+      <guid>http://design-distillery.ca/post/about-us/</guid>
+      <description>This is Us! </description>
+    </item>
+    
+  </channel>
+</rss>
