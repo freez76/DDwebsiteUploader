@@ -1,0 +1,139 @@
+baseurl = ""
+languageCode = "en-us"
+theme = "hugo-theme-hello-friend-ng"
+paginate = 5
+rssLimit  = 5  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+metaDescription = ""
+googleAnalytics = ""
+
+twitterName = "dsgn_dstllry"
+instaName = "design.distillery"
+
+[params]
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  # "light" or "dark"
+  defaultTheme = "dark"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 3
+
+  # Show reading time in minutes for posts
+  showReadingTime = false
+
+  # Show table of contents at the top of your posts (defaults to false)
+  # Alternatively, add this param to post front matter for specific posts
+  #toc = true
+
+  # Show full page content in RSS feed items
+  #(default is Description or Summary metadata in the front matter)
+  # rssFullText = true
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Design Distillery"
+    subtitle = ""
+    homeSubtitle = "ARCHITECTURE | INDUSTRIAL DESIGN | BUILDING SCIENCE"
+    keywords = ""
+    copyright = "Design Distillery Inc."
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+    # leave empty to disable, enter display text to enable
+    # lastModDisplay = ""
+
+    [languages.en.params.logo]
+      logoText = "Design Distillery"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # Uncomment this if you want a portrait on your start page
+  #
+  [params.portrait]
+    path     = "/cover-spaceshiping.jpg"
+    alt      = "SpaceshipImage"
+    maxWidth = "100%"
+    maxHeight = "auto"
+
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/dsgn_dstllry"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:contact@design-distillery.ca"
+
+  [[params.social]]
+    name = "instagram"
+    url  = "https://www.instagram.com/design.distillery/"
+
+  #[[params.social]]
+  #  name = "linkedin"
+  #  url  = "https://www.linkedin.com/"
+
+  #[[params.social]]
+  #  name = "stackoverflow"
+  #  url  = "https://www.stackoverflow.com/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "who"
+        name = "Who we are."
+        url = "/who/"
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "what"
+        name = "What we do."
+        url = "/what"
+        weight = 2
+     [[languages.en.menu.main]]
+        identifier = "contact"
+        name = "How to connect."
+        url = "/contact"
+        weight = 3
